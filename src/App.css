@@ -1,98 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
-html, body{
-  height: 100%;
-  font-family: 'Poppins', sans-serif;
+html,
+body {
+   height: 100%;
+   font-family: "Poppins", sans-serif;
 }
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  min-height: 100vh;
-  /* background-color: #202121; */
-  margin:0;
-  height: 5vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: center;
+   min-height: 100vh;
+   /* background-color: #202121; */
+   margin: 0;
+   height: 5vh;
 }
 
-.header{
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  /* color: aliceblue; */
-  padding:0vh;
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   /* color: aliceblue; */
+   padding: 0vh;
 }
 
-.button{
-  display:inline-block;
-  flex-direction:row;
-  border:none;
-  padding: 5px 15px;
-  margin: 10px;
-  border-radius: 5px;
-  font-family: inherit;
-  cursor: pointer;
-  text-decoration: none;
+.button {
+   display: inline-block;
+   flex-direction: row;
+   border: none;
+   padding: 5px 15px;
+   margin: 10px;
+   border-radius: 5px;
+   font-family: inherit;
+   cursor: pointer;
+   text-decoration: none;
 }
 
-.icon{
-  /* flex: 1; */
-  align-self: stretch;
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  /* background-color: white; */
+.icon {
+   /* flex: 1; */
+   align-self: stretch;
+   width: 100px;
+   height: 100px;
+   margin: 20px;
+   padding: 20px;
+   /* background-color: white; */
 }
 
-.body{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  height: 95vh;
-  margin: 0;
-  background-image: url("https://i.redd.it/s6gp030h7ef51.png");
-  background-size: cover;
-  /* background:scroll; */
+.body {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   height: 95vh;
+   margin: 0;
+   background-image: url("https://i.redd.it/s6gp030h7ef51.png");
+   background-size: cover;
+   /* background:scroll; */
 }
 
-.opening{
-  position: absolute;
-  align-self: flex-start;
-  left: 5vh;
+.opening {
+   position: absolute;
+   align-self: flex-start;
+   left: 5vh;
 }
 
-.icon-container{
-  position: absolute;
-  align-self: flex-end;
-  right: 10vh;
-  margin: 0;
-  padding: 15vh;
+.icon-container {
+   position: absolute;
+   align-self: flex-end;
+   right: 10vh;
+   margin: 0;
+   padding: 15vh;
 }
 
-.icon-container2{
-  position: absolute;
-  align-self: flex-end;
-  right: 10vh;
-  margin: 0;
-  padding: 15vh;
-  top: 25vh;
+.icon-container2 {
+   position: absolute;
+   align-self: flex-end;
+   right: 10vh;
+   margin: 0;
+   padding: 15vh;
+   top: 25vh;
 }
 
-.closing{
-  position: absolute;
-  flex:1;
-  align-self: flex-end;
-  text-align: right;
-  margin: 0;
-  size: inherit;
-  bottom: 10vh;
-  right: 5vh;
+.closing {
+   position: absolute;
+   flex: 1;
+   align-self: flex-end;
+   text-align: right;
+   margin: 0;
+   size: inherit;
+   bottom: 10vh;
+   right: 5vh;
 }
 
-.footer{
-  margin: 0;
-  text-align: center;
-  color:antiquewhite;
+.footer {
+   margin: 0;
+   text-align: center;
+   color: antiquewhite;
 }

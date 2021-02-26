@@ -1,11 +1,9 @@
-
-html{
-  /* background-color: #303030; */
-  position: relative;
-  overflow: auto;
+html {
+   /* background-color: #303030; */
+   position: relative;
+   overflow: auto;
 }
 body {
-  margin: 0;
-  height: 100%;
+   margin: 0;
+   height: 100%;
 }
-
