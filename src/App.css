@@ -34,16 +34,61 @@ html, body{
   cursor: pointer;
   text-decoration: none;
 }
-/* .button:focus{
-  outline: ivory;
-} */
+
+.icon{
+  /* flex: 1; */
+  align-self: stretch;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  /* background-color: white; */
+}
 
 .body{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
   height: 95vh;
   margin: 0;
   background-image: url("https://i.redd.it/s6gp030h7ef51.png");
   background-size: cover;
   /* background:scroll; */
+}
+
+.opening{
+  position: absolute;
+  align-self: flex-start;
+  left: 5vh;
+}
+
+.icon-container{
+  position: absolute;
+  align-self: flex-end;
+  right: 10vh;
+  margin: 0;
+  padding: 15vh;
+}
+
+.icon-container2{
+  position: absolute;
+  align-self: flex-end;
+  right: 10vh;
+  margin: 0;
+  padding: 15vh;
+  top: 25vh;
+}
+
+.closing{
+  position: absolute;
+  flex:1;
+  align-self: flex-end;
+  text-align: right;
+  margin: 0;
+  size: inherit;
+  bottom: 10vh;
+  right: 5vh;
 }
 
 .footer{
