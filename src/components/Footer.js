@@ -1,7 +1,7 @@
-const Footer = () => {
+const Footer = ({darkMode}) => {
     return(
         <footer className='footer'>
-            <p>Copyright &copy; 2021</p>
+            <p style={{color: darkMode ? 'white' : 'black'}}>Copyright &copy; 2021</p>
         </footer>
     )
 }

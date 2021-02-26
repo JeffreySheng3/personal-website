@@ -10,7 +10,7 @@ html, body{
   justify-content: space-between;
   text-align: center;
   min-height: 100vh;
-  background-color: #202121;
+  /* background-color: #202121; */
   margin:0;
   height: 5vh;
 }
@@ -19,7 +19,7 @@ html, body{
   display:flex;
   align-items: center;
   justify-content: space-between;
-  color: aliceblue;
+  /* color: aliceblue; */
   padding:0vh;
 }
 
@@ -34,9 +34,9 @@ html, body{
   cursor: pointer;
   text-decoration: none;
 }
-.button:focus{
+/* .button:focus{
   outline: ivory;
-}
+} */
 
 .body{
   height: 95vh;

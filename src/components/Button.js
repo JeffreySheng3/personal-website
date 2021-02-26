@@ -1,9 +1,13 @@
+import { createPortal } from "react-dom"
 
-const Button = ({ color, text, onClick }) => {
+const Button = ({ color, textColor, text, onClick }) => {
     return(
         <button
             onClick={onClick} 
-            style={ {backgroundColor: color}}
+            style={ {
+                backgroundColor: color,
+                color: textColor,
+                } }
             className='button'>
             {text}
         </button>

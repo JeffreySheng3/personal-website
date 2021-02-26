@@ -13,15 +13,18 @@ function App() {
     setDarkMode(!darkMode);
   }
 
+
   return (
-    <div className="container">
+    <div className="container"
+    style={{backgroundColor: darkMode ? 'black' : 'white'}}>
       <Header 
         title='My Website'
         darkMode={darkMode}
         changeMode={changeMode}
         />
       <Body />
-      <Footer />
+      <Footer
+        darkMode={darkMode} />
     </div>
   );
 }
