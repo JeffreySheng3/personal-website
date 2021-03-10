@@ -38,11 +38,11 @@ body {
 
 .icon {
    /* flex: 1; */
-   align-self: stretch;
+   /* align-self: stretch; */
    width: 100px;
    height: 100px;
    margin: 20px;
-   padding: 20px;
+   /* padding: 20px; */
    /* background-color: white; */
 }
 
@@ -75,7 +75,10 @@ body {
 .icon-container2 {
    position: absolute;
    align-self: flex-end;
+   display: inline-block;
    right: 10vh;
+   height: 200px;
+   width: 200px;
    margin: 0;
    padding: 15vh;
    top: 25vh;
